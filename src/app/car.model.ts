@@ -1,3 +1,7 @@
+/**
+ * Created by kelvinknighton on 7/10/17.
+ */
+
 export class Car {
   constructor(
     public imageUrl: string,
@@ -9,6 +13,8 @@ export class Car {
     public stat1: string,
     public stat2: string,
     public stat3: string,
+    public stat4: string,
     public id: number
   ) {}
 }
+
